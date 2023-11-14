@@ -10,7 +10,7 @@ class RectangleTest {
         //Given
         Rectangle rectangle1 = new Rectangle(5, 6);
         Rectangle rectangle2 = new Rectangle(6, 7);
-        Rectangle rectangle3 = new Rectangle(0, 0);
+        Rectangle rectangle3 = new Rectangle(-1, -1);
 
         //When
         double rectangleArea1 = rectangle1.getArea();

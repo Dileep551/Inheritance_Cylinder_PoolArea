@@ -10,7 +10,7 @@ class CuboidTest {
         //Given
         Cuboid cuboid1 = new Cuboid(5,6,7);
         Cuboid cuboid2 = new Cuboid(5,6,9);
-        Cuboid cuboid3 = new Cuboid(5,9,0);
+        Cuboid cuboid3 = new Cuboid(5,9,-1);
 
         //When
         double volumeOfCuboid1 = cuboid1.getHeight() * cuboid1.getArea();
